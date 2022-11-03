@@ -1,0 +1,307 @@
+.hero {
+    background-image: url(../img/paysage.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.elementsNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav{
+    height: 15%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.menu>a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.boitePunchline{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bleu{
+    color: rgb(34, 75, 142);
+}
+
+.jaune{
+    color: rgb(255, 221, 0);
+}
+
+.gris{
+    color: rgb(55, 55, 55);
+}
+
+.rose{
+    color: rgb(186, 127, 174);
+}
+
+.white{
+    color: white;
+}
+
+.punchlineH1{
+    color: white;
+    font-size: 100px;
+    padding:4px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.punchlineP{
+    color: white;
+    font-size: 18px;
+    padding:4px;
+    margin-top: 4px;
+    width: 60%;
+    text-align: center;
+    opacity: 60%;
+}
+
+.iconShopping {
+    color: white;
+    font-size: 24px;
+}
+
+.boiteArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+.arrow65{
+    font-size: 50px;
+    color: white;
+}
+
+.categories{
+    background-color:rgb(225, 225, 225);
+}
+
+.elementsCat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnProduct{
+    width: max-content;
+    padding: 15px;
+    background-color:rgb(160, 139, 86);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.boiteCheck{
+    width: 35%;
+    padding-left: 10px;
+}
+
+.separator{
+    height: 2px;
+    background-color: rgb(200, 200, 200);
+    width: 40px;
+}
+
+.xGender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textGender{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.choiceProduct{
+    font-size: 16px;
+    margin: 0px;
+}
+
+.productsCase{
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+    height: 100%;
+}
+
+.chevron{
+    font-size: 16px;
+}
+
+.switchright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.switchleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.custom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.size{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.textSize{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.imgDecale{
+    margin-right: -5px;
+}
+
+.priceSize{
+    font-size: 20px;
+}
+
+.imgProductSize{
+    height: 250px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kaki{
+    color:rgb(160, 139, 86);
+}
+
+.about{
+    background-color: rgb(163, 143, 93);
+}
+
+.boiteAbout{
+    border: solid 2px rgb(122, 107, 69);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 100px;
+}
+
+.titleAbout{
+    margin-bottom: -138px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titleAboutSize{
+    font-size: 18px;
+    position: sticky;
+    background-color: rgb(163, 143, 93);
+    width: 110px;
+}
+
+.socialIcon{
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+
+.social{
+    background-color: rgb(65, 65, 65);
+}
+
+.footer{
+    background-color: rgb(40, 40, 40);
+}
+
+.elementsFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.menuFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.menuFooter>a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.titleFooter{
+    color: white;
+    font-size: 24px;
+}
+
+.textFooter{
+    color: white;
+}
+
+.boiteTexteFooter{
+    width: 400px;
+}
+
+.vl {
+    border-left: 1px solid rgb(214, 214, 214);
+    height: 14px;
+  }
